@@ -30,4 +30,11 @@
     - you can check this with comparing this two Strings with (==) operator and .equals() method.
 
     - (==) check its variables content with memory address and .equals() check only content of variable.
-    
+
+- How mutable string works - 
+    - StringBuffer in Java is a mutable, thread-safe class used to modify strings without creating new objects. It supports operations like append, insert, delete, and reverse, and is synchronized for use in multi-threaded environments.
+
+
+## Static Variables - 
+- A static variable in Java is shared among all instances of a class and is stored in memory only once. 
+- It belongs to the class, not objects, and is declared using the static keyword. It can be accessed directly using the class name.

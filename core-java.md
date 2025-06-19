@@ -38,3 +38,11 @@
 ## Static Variables - 
 - A static variable in Java is shared among all instances of a class and is stored in memory only once. 
 - It belongs to the class, not objects, and is declared using the static keyword. It can be accessed directly using the class name.
+
+## Static Method - 
+- A static method in Java belongs to the class rather than any object and can be called without creating an object. 
+- It is declared using the static keyword and can only access static data directly (not instance variables).
+
+## Static Block - 
+- A static block in Java is used to initialize static variables and runs once when the class is loaded, before the main() method. 
+- It’s executed automatically by the JVM without creating any object.

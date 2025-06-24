@@ -46,3 +46,38 @@
 ## Static Block - 
 - A static block in Java is used to initialize static variables and runs once when the class is loaded, before the main() method. 
 - It’s executed automatically by the JVM without creating any object.
+
+## this() & super() method -
+- this() calls another constructor in the same class and helps avoid code duplication.
+
+- super() calls a constructor from the parent class to reuse or initialize inherited properties.
+
+- Both must be the first statement in a constructor.
+
+
+## Final keyword - 
+- Final keyword we can use with variable, method, and class.
+
+- Final Variable: Value cannot be changed (acts as a constant).
+
+- Final Method: Cannot be overridden by subclasses.
+
+- Final Class: Cannot be inherited (no subclass allowed).
+
+
+## Difference between Final and Static keywords - 
+- final makes variables constant, methods non-overridable, and classes non-inheritable.
+
+- static makes variables and methods belong to the class, not to objects. (can access without any object).
+
+
+## Wrapper calss - 
+- Wrapper class in Java is used to convert primitive data types into objects. Java provides a wrapper class for each primitive type, like int → Integer, char → Character, etc.
+
+- They are useful when:
+
+    - Working with collections like ArrayList (which only store objects),
+
+    - Using utility methods (e.g., Integer.parseInt()),
+
+    - Performing autoboxing (primitive to object) and unboxing (object to primitive) automatically.

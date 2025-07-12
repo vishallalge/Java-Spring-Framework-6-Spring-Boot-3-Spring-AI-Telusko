@@ -81,3 +81,8 @@
     - Using utility methods (e.g., Integer.parseInt()),
 
     - Performing autoboxing (primitive to object) and unboxing (object to primitive) automatically.
+
+## Dynamic Method Dispatch - 
+- Dynamic Method Dispatch in Java is the process where the method call is resolved at runtime, not compile time. 
+- It occurs when a parent class reference points to a child class object, and the overridden method in the child class gets called. 
+- This enables runtime polymorphism, allowing Java to decide which method to execute based on the actual object.

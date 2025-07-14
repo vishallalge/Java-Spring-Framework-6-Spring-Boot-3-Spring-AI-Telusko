@@ -71,7 +71,7 @@
 - static makes variables and methods belong to the class, not to objects. (can access without any object).
 
 
-## Wrapper calss - 
+## Wrapper class - 
 - Wrapper class in Java is used to convert primitive data types into objects. Java provides a wrapper class for each primitive type, like int → Integer, char → Character, etc.
 
 - They are useful when:

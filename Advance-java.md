@@ -202,3 +202,53 @@
 - If you want to write your own logic to sort then you can use `Comparator`
 
 - If you want to give power to class to compare its objects itself, we can use `Comparable` there.
+
+
+
+## forEach method - 
+- In Java, the .forEach() method is used to iterate over elements in a collection such as a List, Set, or Map using lambda expressions or method references. 
+- It is available from Java 8 onwards as part of the Iterable interface and the Streams API.
+- Simply we can use this to print the items of different data structure.
+
+- ex.   
+    `List<String> names = Arrays.asList("Alice", "Bob", "Charlie");`
+
+    `names.forEach(name -> System.out.println(name));`
+
+
+## Stream - 
+- A Stream is a sequence of elements that supports functional-style operations to process data, such as filtering, mapping, sorting, etc., without modifying the original data source.
+- `List<String> names = Arrays.asList("Alice", "Bob", "Charlie");`
+
+    `names.stream()
+    .filter(name -> name.startsWith("A"))
+     .forEach(System.out::println);`
+
+## Parallel Stream - 
+- `parallelStream()` is a way to process streams concurrently, using multiple CPU threads automatically, ideal for large, performance-critical tasks where the order of processing does not matter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Revisit this topics : 
+- ## Thread
+- ## Stream
+- ## Parallel Stream
+- ## Optional class in Java
+- ## Method Reference
+- ## Constructor Reference

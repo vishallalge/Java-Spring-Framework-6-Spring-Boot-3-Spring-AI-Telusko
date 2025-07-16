@@ -159,3 +159,46 @@
     - Waiting / Timed Waiting
 
     - Terminated (Dead)
+
+
+## Collection -
+- A Collection is an object that can hold multiple elements together, like a list of names, a set of IDs, or a map of key-value pairs.
+
+- #### Collection :
+    - List -
+        - Arraylist 
+            - An ArrayList is a resizable array (also called dynamic array) in Java.
+            - It is part of the java.util package and implements the List interface.
+            - `import java.util.ArrayList`
+            - `ArrayList<Type> listName = new ArrayList<>();`
+        - Linkedlist
+    - Set -
+        - Hashset
+            - A HashSet is a class in Java that implements the Set interface and is used to store a collection of unique elements (i.e., no duplicates allowed).
+
+            - It is part of the java.util package and internally uses a HashMap for storage.
+
+            - `import java.util.HashSet;`
+
+            - `HashSet<Type> setName = new HashSet<>();`
+
+        - LinkedHashset
+    - Queue - 
+        - Dequeue
+
+
+
+ - #### Collection API :
+    - Map -
+        - HashMap
+        - HashTable
+        
+
+
+## Comparator vs Comparable - 
+- `Comparable` and `Comparator` are interfaces used for sorting objects.
+- They define how objects should be compared when sorting or ordering collections like `ArrayList`, `TreeSet`, etc.
+
+- If you want to write your own logic to sort then you can use `Comparator`
+
+- If you want to give power to class to compare its objects itself, we can use `Comparable` there.

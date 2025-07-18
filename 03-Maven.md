@@ -18,10 +18,10 @@
 | :------------------------- | :--------------------------------- | :--------------------------------- |
 | Language Ecosystem         | Java                               | JavaScript / Node.js               |
 | Config File                | `pom.xml`                          | `package.json`                     |
-| Manages Dependencies       | ✅ Yes                              | ✅ Yes                              |
-| Build Tool                 | ✅ Yes (compiles, tests, packages)  | ⚠️ No by default (use with tools like Webpack) |
+| Manages Dependencies       |   Yes                              |   Yes                              |
+| Build Tool                 |   Yes (compiles, tests, packages)  |   No by default (use with tools like Webpack) |
 | Installs Libraries From    | Maven Central Repository           | npm Registry                       |
-| Runs Scripts               | ✅ Using plugins                    | ✅ Using `scripts` section          |
+| Runs Scripts               |   Using plugins                    |   Using `scripts` section          |
 | Package Format             | `.jar`, `.war`                     | `.js`, `.json`, etc.               |
 
 

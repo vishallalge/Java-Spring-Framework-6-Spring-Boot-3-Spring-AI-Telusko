@@ -12,7 +12,7 @@
 
 
 
-## Maven vs npm: Side-by-Side
+## Maven vs npm -
 
 | Feature                    | Maven (Java)                       | npm (JavaScript/Node.js)           |
 | :------------------------- | :--------------------------------- | :--------------------------------- |

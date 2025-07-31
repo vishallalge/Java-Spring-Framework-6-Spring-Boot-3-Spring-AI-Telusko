@@ -2,7 +2,7 @@
 # JDBC - (Java Database Connectivity)
 
 
-## What is Maven? 
+## What is JDBC? 
 - JDBC is a Java API (Application Programming Interface) that allows Java applications to interact with relational databases (like MySQL, Oracle, PostgreSQL).
 
 - Steps to connect a Java application with a database using JDBC - 

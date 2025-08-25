@@ -1,5 +1,5 @@
 
-# Spring :
+# Spring Boot :
 
 
 ## What is Spring? 
@@ -72,3 +72,35 @@
 - Injects it into the variable, constructor, or setter method.
 
 - If multiple beans match, you must specify which one (`@Qualifier` or `@Primary`).
+
+
+
+
+## What is Java based configuration? 
+
+- Java-based configuration in Spring means defining beans and wiring dependencies using Java classes + annotations instead of XML.
+
+
+## Different Layers in Spring Boot?
+- In Spring Boot, the common layers are - 
+
+Controller → Service → Repository → Model
+- where each has a separate responsibility -
+
+API handling → business logic → database → data objects 
+
+
+
+
+
+
+
+
+### Work and How to use ? 
+| **Layer**                                  | **Function / Responsibility**                                                   | **How we use it in Spring Boot**                                                                                |
+| ------------------------------------------ | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Controller (Presentation Layer)**        | Handles **HTTP requests & responses**, exposes REST APIs                        | Annotate class with `@RestController` or `@Controller`; define methods with `@GetMapping`, `@PostMapping`, etc. |
+| **Service (Business Logic Layer)**         | Contains **business logic**; acts as a bridge between Controller and Repository | Annotate class with `@Service`; call repository methods here and apply logic                                    |
+| **Repository (Data Access Layer / DAO)**   | Manages **database operations** (CRUD)                                          | Create an interface, extend `JpaRepository` or `CrudRepository`, annotate with `@Repository`                    |
+| **Model / Entity (Domain Layer)**          | Represents **data objects / DB tables**                                         | Annotate class with `@Entity`, `@Table`, and fields with `@Id`, `@Column`                                       |
+

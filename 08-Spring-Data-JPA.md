@@ -15,6 +15,8 @@
 - ORM is a concept of mapping objects to relational tables. 
 - JPA is a Java specification that standardizes ORM in Java. 
 - JPA doesn’t do ORM itself; instead, frameworks like Hibernate implement JPA to perform ORM
+
+  
 | **Aspect**         | **ORM** (Object Relational Mapping)                                           | **JPA** (Java Persistence API)                                               |
 | ------------------ | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Definition**     | A **concept/technique** of mapping Java objects to relational database tables | A **specification (standard)** in Java that defines how ORM should be done   |

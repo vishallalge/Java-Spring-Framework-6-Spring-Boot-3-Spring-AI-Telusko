@@ -55,12 +55,12 @@
     
     - AOP Definition: Different types of advice in Spring AOP:
     
-    ○ Before: Executed before the method execution.
+        - Before: Executed before the method execution.
     
-    ○ After: Executed after the method execution, regardless of the outcome.
+        - After: Executed after the method execution, regardless of the outcome.
     
-    ○ After-returning: Executed after the method execution if it completes successfully.
+        - After-returning: Executed after the method execution if it completes successfully.
     
-    ○ After-throwing: Executed after the method execution if it throws an exception.
+        - After-throwing: Executed after the method execution if it throws an exception.
 
-    ○ Around: Executes both before and after the method execution, giving you control over the entire method invocation.
+        - Around: Executes both before and after the method execution, giving you control over the entire method invocation.

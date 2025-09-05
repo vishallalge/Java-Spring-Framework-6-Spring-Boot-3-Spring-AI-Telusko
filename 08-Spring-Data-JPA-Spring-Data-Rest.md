@@ -16,7 +16,7 @@
 - JPA is a Java specification that standardizes ORM in Java. 
 - JPA doesn’t do ORM itself; instead, frameworks like Hibernate implement JPA to perform ORM
 
-  
+
 | **Aspect**         | **ORM** (Object Relational Mapping)                                           | **JPA** (Java Persistence API)                                               |
 | ------------------ | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Definition**     | A **concept/technique** of mapping Java objects to relational database tables | A **specification (standard)** in Java that defines how ORM should be done   |
@@ -25,3 +25,10 @@
 | **Implementation** | Implemented by frameworks like Hibernate, EclipseLink, etc.                   | Implemented by ORM frameworks (Hibernate, EclipseLink, OpenJPA, etc.)        |
 | **Usage**          | Just a concept, doesn’t provide direct API                                    | Provides a standard API with annotations (`@Entity`, `@Id`, etc.)            |
 | **Example**        | ORM → concept of mapping `User` class → `users` table                         | JPA → defines standard annotations & interfaces (`EntityManager`, `@Entity`) |
+
+
+
+# Spring Data Rest : 
+
+## What is spring data rest - 
+- Spring Data REST is a part of the Spring Data ecosystem that automatically exposes your Spring Data repositories as RESTful APIs, without you having to write controllers manually
